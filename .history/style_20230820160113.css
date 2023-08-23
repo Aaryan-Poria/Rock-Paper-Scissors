@@ -1,0 +1,7 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.head h2 {
+  border: 1px solid red;
+}
