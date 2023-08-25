@@ -44,7 +44,6 @@ const updateScores = (playerScore, compScore) => {
 let computerChoice = generateComputerChoice();
 let buttonPressed = document.querySelectorAll('.btn');
 
-console.log(computerChoice);
 
 let playerScore = 0;
 let compScore = 0;
@@ -99,7 +98,6 @@ for (let i = 0; i < 3; i++) {
     updateScores(playerScore, compScore);
 
     computerChoice = generateComputerChoice();
-    console.log(computerChoice);
 
     if (playerScore === 5 || compScore === 5) {
       gameEnded = true;
