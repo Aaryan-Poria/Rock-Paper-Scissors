@@ -88,3 +88,9 @@ body {
   background-color: #393e46;
   border: none;
 }
+.btn:hover {
+  background-color: #4a4f57;
+}
+.btn:active {
+  background-color: #393e46;
+}
